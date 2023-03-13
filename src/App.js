@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {" "}
+      Scatter Plot
+      <img src={require("./images/image1.png")} className="image" />
+      Pie Chart
+      <img src={require("./images/image2.png")} className="image" />
+      Pie Chart using Explode
+      <img src={require("./images/image3.png")} className="image" />
+      Histogram
+      <img src={require("./images/image4.png")} className="image" />
     </div>
   );
 }
